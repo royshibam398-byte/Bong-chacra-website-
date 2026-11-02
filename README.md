@@ -1,0 +1,11 @@
+
+<div class="video-grid">
+  <div class="video">
+    <iframe
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      title="Bong Chacra 2.0 Video"
+      allowfullscreen>
+    </iframe>
+    <p>আমাদের ভিডিও দেখো!</p>
+  </div>
+</div>
