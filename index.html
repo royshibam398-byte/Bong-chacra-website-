@@ -1,10 +1,56 @@
-<div class="video-grid">
-  <div class="video">
-    <iframe
-      src="https://www.youtube.com/embed/VIDEO_ID"
-      title="Bong Chacra 2.0 Video"
-      allowfullscreen>
-    </iframe>
-    <p>আমাদের ভিডিও দেখো!</p>
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111827">
+<title>Bong Chacra 2.0 | YouTube</title>
+<style>
+:root{--bg:#0b1020;--panel:#151d31;--text:#f8fafc;--muted:#aab6cc;--red:#ff3048;--yellow:#ffd166}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#202c4a 0,#0b1020 55%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:16px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.3px}.logo{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--red);font-size:22px;box-shadow:0 8px 28px #ff304855}
+nav{display:flex;gap:22px;color:var(--muted);font-size:14px}nav a:hover{color:white}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--red);padding:13px 20px;border-radius:999px;font-weight:800;box-shadow:0 8px 28px #ff304833;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.btn.secondary{background:#26334e;box-shadow:none;border:1px solid #394765}
+.hero{padding:65px 0 58px;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}.eyebrow{display:inline-block;color:var(--yellow);font-weight:800;letter-spacing:2px;font-size:12px;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,76px);line-height:.98;margin:18px 0}.hero h1 span{color:var(--red)}.hero p{color:var(--muted);font-size:18px;line-height:1.7;max-width:570px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.visual{min-height:320px;border-radius:30px;background:linear-gradient(135deg,#ff3048,#8b1d43 55%,#34275d);display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 25px 80px #0005}.visual:before,.visual:after{content:"";position:absolute;border:2px solid #ffffff22;border-radius:50%;width:300px;height:300px}.visual:after{width:420px;height:420px}.play{position:relative;z-index:1;width:110px;height:110px;background:#ffffff20;border:1px solid #ffffff55;backdrop-filter:blur(8px);border-radius:32px;display:grid;place-items:center;font-size:52px;transform:rotate(-5deg)}.visual-label{position:absolute;bottom:24px;font-weight:900;letter-spacing:3px;font-size:13px}
+section{padding:40px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:22px}.section-head h2{font-size:clamp(26px,4vw,38px);margin:8px 0}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid #293650;border-radius:22px;padding:22px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#536484}.card-icon{font-size:30px}.card h3{margin:14px 0 7px}.card p{color:var(--muted);line-height:1.6;margin:0 0 18px}.card a{font-weight:800;color:#ff8795}
+.about{background:#111a2c;border:1px solid #293650;border-radius:26px;padding:30px;display:flex;align-items:center;justify-content:space-between;gap:24px}.about p{color:var(--muted);line-height:1.7;max-width:650px}
+footer{padding:30px 0 40px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:35px}.visual{min-height:240px}.grid{grid-template-columns:1fr}.about{align-items:flex-start;flex-direction:column}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="#"><span class="logo">▶</span><span>BONG CHACRA <span style="color:var(--red)">2.0</span></span></a>
+  <nav><a href="#videos">ভিডিও</a><a href="#shorts">Shorts</a><a href="#about">আমাদের সম্পর্কে</a></nav>
+  <a class="btn" href="https://www.youtube.com/@bongchacra2.o" target="_blank" rel="noopener">▶ Subscribe</a>
+</header>
+<main>
+<section class="hero">
+  <div>
+    <span class="eyebrow">বাংলার হাসি • Entertainment</span>
+    <h1>হাসির দুনিয়ায়<br><span>স্বাগতম!</span></h1>
+    <p>Bong Chacra 2.0 — মজার ভিডিও, দারুণ Shorts আর বাংলার খাঁটি এন্টারটেইনমেন্ট। নতুন ভিডিও মিস কোরো না!</p>
+    <div class="actions"><a class="btn" href="https://www.youtube.com/@bongchacra2.o" target="_blank" rel="noopener">▶ চ্যানেল দেখো</a><a class="btn secondary" href="#videos">ভিডিও এক্সপ্লোর করো ↓</a></div>
   </div>
+  <div class="visual" aria-label="Bong Chacra 2.0 YouTube themed artwork"><div class="play">▶</div><div class="visual-label">BONG CHACRA 2.0</div></div>
+</section>
+<section id="videos">
+  <div class="section-head"><div><span class="eyebrow">Watch & Enjoy</span><h2>আমাদের ভিডিও</h2><p>সব ভিডিও দেখতে চ্যানেলে চলে যাও।</p></div><a class="btn secondary" href="https://www.youtube.com/@bongchacra2.o/videos" target="_blank" rel="noopener">সব ভিডিও ↗</a></div>
+  <div class="grid">
+    <article class="card"><div><div class="card-icon">😂</div><h3>Funny Videos</h3><p>হাসির মজার মুহূর্ত আর কমেডি কনটেন্ট।</p></div><a href="https://www.youtube.com/@bongchacra2.o/videos" target="_blank" rel="noopener">ভিডিও দেখো ↗</a></article>
+    <article class="card" id="shorts"><div><div class="card-icon">⚡</div><h3>YouTube Shorts</h3><p>ছোট্ট ভিডিও, বড় হাসি — Shorts দেখতে ক্লিক করো।</p></div><a href="https://www.youtube.com/@bongchacra2.o/shorts" target="_blank" rel="noopener">Shorts দেখো ↗</a></article>
+    <article class="card"><div><div class="card-icon">🎬</div><h3>নতুন আপডেট</h3><p>নতুন ভিডিও ও চ্যানেলের আপডেট পেতে সাবস্ক্রাইব করো।</p></div><a href="https://www.youtube.com/@bongchacra2.o" target="_blank" rel="noopener">Subscribe ↗</a></article>
+  </div>
+</section>
+<section id="about">
+  <div class="about"><div><span class="eyebrow">About the channel</span><h2>আমরা Bong Chacra 2.0</h2><p>আমাদের লক্ষ্য তোমার মুখে হাসি ফোটানো। চ্যানেলের ভিডিও ভালো লাগলে Like, Comment আর Subscribe করে পাশে থেকো!</p></div><a class="btn" href="https://www.youtube.com/@bongchacra2.o" target="_blank" rel="noopener">চ্যানেলে যোগ দাও ↗</a></div>
+</section>
+</main>
+<footer><span>© 2026 Bong Chacra 2.0</span><span>Made with ❤️ for our viewers</span></footer>
 </div>
+</body>
+</html>
